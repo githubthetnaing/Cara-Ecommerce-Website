@@ -16,16 +16,25 @@
         <section id="Header">
             <a href="#"><img src="./img/logo.png" alt="Cara" class="logo"></a>
 
-            <div>
-                <ul id="navbar">
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="subpages/shop.html">Shop</a></li>
-                    <li><a href="subpages/blog.html">Blog</a></li>
-                    <li><a href="subpages/about.html">About</a></li>
-                    <li><a href="subpages/contact.html">Contact</a></li>
-                    <li class="lg-bag"><a href="subpages/cart.html"><i class="fa-solid fa-bag-shopping head-Cart"></i></a></li>
-                    <a href="#" id="Close"><i class="fa-solid fa-xmark"></i></a>
-                </ul>
+            <div class="header-actions">
+                <label class="language-label" for="language-switcher">
+                    <i class="fa-solid fa-globe"></i>
+                    <select id="language-switcher" aria-label="Select language">
+                        <option value="en">English</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                </label>
+                <div>
+                    <ul id="navbar">
+                        <li><a class="active" href="index.html" data-i18n="home">Home</a></li>
+                        <li><a href="subpages/shop.html" data-i18n="shop">Shop</a></li>
+                        <li><a href="subpages/blog.html" data-i18n="blog">Blog</a></li>
+                        <li><a href="subpages/about.html" data-i18n="about">About</a></li>
+                        <li><a href="subpages/contact.html" data-i18n="contact">Contact</a></li>
+                        <li class="lg-bag"><a href="subpages/cart.html"><i class="fa-solid fa-bag-shopping head-Cart"></i></a></li>
+                        <a href="#" id="Close"><i class="fa-solid fa-xmark"></i></a>
+                    </ul>
+                </div>
             </div>
 
             <div id="mobile">
@@ -40,32 +49,32 @@
             <div class="slide active">
                 <img src="./img/hero1.png" alt="">
                 <div class="info">
-                    <h4 class="select-none">Trade-In-Offer</h4>
-                    <h2 class="select-none">Super Value Deals</h2>
-                    <h1 class="select-none">On all products</h1>
-                    <p class="select-none">Save more with coupons & up to 70% off!</p>
-                    <button> Shop Now</button>
+                    <h4 class="select-none" data-i18n="heroHeading">Trade-In-Offer</h4>
+                    <h2 class="select-none" data-i18n="heroTitle">Super Value Deals</h2>
+                    <h1 class="select-none" data-i18n="heroSubtitle">On all products</h1>
+                    <p class="select-none" data-i18n="heroDescription">Save more with coupons & up to 70% off!</p>
+                    <button data-i18n="heroButton">Shop Now</button>
                 </div>
             </div>
             <div class="slide">
                 <img src="./img/hero-2.png" alt="">
                 <div class="info">
-                    <h4 class="select-none">Trade-In-Offer</h4>
-                    <h2 class="select-none">Super Value Deals</h2>
-                    <h1 class="select-none">On all products</h1>
-                    <p class="select-none">Save more with coupons & up to 70% off!</p>
-                    <button> Shop Now</button>
+                    <h4 class="select-none" data-i18n="heroHeading">Trade-In-Offer</h4>
+                    <h2 class="select-none" data-i18n="heroTitle">Super Value Deals</h2>
+                    <h1 class="select-none" data-i18n="heroSubtitle">On all products</h1>
+                    <p class="select-none" data-i18n="heroDescription">Save more with coupons & up to 70% off!</p>
+                    <button data-i18n="heroButton">Shop Now</button>
                 </div>
             </div>
             
             <div class="slide">
                 <img src="./img/hero3.png" alt="">
                 <div class="info">
-                    <h4 class="select-none">Trade-In-Offer</h4>
-                    <h2 class="select-none">Super Value Deals</h2>
-                    <h1 class="select-none">On all products</h1>
-                    <p class="select-none">Save more with coupons & up to 70% off!</p>
-                    <button> Shop Now</button>
+                    <h4 class="select-none" data-i18n="heroHeading">Trade-In-Offer</h4>
+                    <h2 class="select-none" data-i18n="heroTitle">Super Value Deals</h2>
+                    <h1 class="select-none" data-i18n="heroSubtitle">On all products</h1>
+                    <p class="select-none" data-i18n="heroDescription">Save more with coupons & up to 70% off!</p>
+                    <button data-i18n="heroButton">Shop Now</button>
                 </div>
             </div>
 
@@ -80,35 +89,35 @@
         <section id="feature" class="section-p1">
             <div class="fe-box">
                 <img src="./img/features/f1.png" alt="F-1">
-                <h6>Free Shipping</h6>
+                <h6 data-i18n="freeShipping">Free Shipping</h6>
             </div>
             <div class="fe-box">
                 <img src="./img/features/f2.png" alt="F-2">
-                <h6>Online Order</h6>
+                <h6 data-i18n="onlineOrder">Online Order</h6>
             </div>
             <div class="fe-box">
                 <img src="./img/features/f3.png" alt="F-3">
-                <h6>Save Money</h6>
+                <h6 data-i18n="saveMoney">Save Money</h6>
             </div>
             <div class="fe-box">
                 <img src="./img/features/f4.png" alt="F-4">
-                <h6>Promotion</h6>
+                <h6 data-i18n="promotion">Promotion</h6>
             </div>
             <div class="fe-box">
                 <img src="./img/features/f5.png" alt="F-5">
-                <h6>Happy Sell</h6>
+                <h6 data-i18n="happySell">Happy Sell</h6>
             </div>
             <div class="fe-box">
                 <img src="./img/features/f6.png" alt="F-6">
-                <h6>24/7 Support</h6>
+                <h6 data-i18n="support">24/7 Support</h6>
             </div>
 
         </section>
 
         <!-- Products -->
         <section id="product1" class="section-p1">
-            <h2>Featured Products</h2>
-            <p>Summer Collection New Morden Design</p>
+            <h2 data-i18n="featuredProducts">Featured Products</h2>
+            <p data-i18n="featuredDescription">Summer Collection New Morden Design</p>
             
             <div class="pro-container">
 
@@ -246,55 +255,55 @@
 
         <!-- Call to Action -->
         <section id="banner" class="section-m1">
-            <h4>Repair Services</h4>
-            <h2>Up to <span>70% Off</span> All t-shirt & Accessories</h2>
-            <button class="normal">Explore More</button>
+            <h4 data-i18n="repairServices">Repair Services</h4>
+            <h2 data-i18n="repairOffer">Up to <span>70% Off</span> All t-shirt & Accessories</h2>
+            <button class="normal" data-i18n="exploreMore">Explore More</button>
         </section>
 
         <!--Small Banner  -->
         <section id="sm-banner" class="section-p1">
             <div class="bannner-box">
-                <h4>crazy deals</h4>
-                <h2>buy 1 get 1 free</h2>
-                <span>The Best classic dress is on sale at cara</span>
-                <button class="white">Learn More</button>
+                <h4 data-i18n="dealsHeading">crazy deals</h4>
+                <h2 data-i18n="dealsTitle">buy 1 get 1 free</h2>
+                <span data-i18n="dealsDescription">The Best classic dress is on sale at cara</span>
+                <button class="white" data-i18n="learnMore">Learn More</button>
             </div>
             <div class="bannner-box">
-                <h4>spring/summer</h4>
-                <h2>upcoming season</h2>
-                <span>The Best classic dress is on sale at cara</span>
-                <button class="white">Collection</button>
+                <h4 data-i18n="seasonHeading">spring/summer</h4>
+                <h2 data-i18n="seasonTitle">upcoming season</h2>
+                <span data-i18n="dealsDescription">The Best classic dress is on sale at cara</span>
+                <button class="white" data-i18n="collection">Collection</button>
             </div>
         </section>
 
         <!-- Feauture Banner -->
         <section id="banner3">
             <div class="banner-box">
-                <h4>SEASON SALE</h4>
-                <h3>winter Collection -50% OFF</h3>
+                <h4 data-i18n="seasonSale">SEASON SALE</h4>
+                <h3 data-i18n="winterCollection">winter Collection -50% OFF</h3>
             </div>
             <div class="banner-box ">
-                <h4>NEW FOOTWEAR COLLECTION</h4>
-                <h3>spring / summer 2023</h3>
+                <h4 data-i18n="footwearCollection">NEW FOOTWEAR COLLECTION</h4>
+                <h3 data-i18n="seasonYear">spring / summer 2023</h3>
             </div>
             <div class="banner-box ">
-                <h4>T-SHIRT</h4>
-                <h3>New Trendy Prints</h3>
+                <h4 data-i18n="tshirt">T-SHIRT</h4>
+                <h3 data-i18n="trendyPrints">New Trendy Prints</h3>
             </div>
         </section>
 
         <!-- NewsLetter -->
         <section id="newsletter" class="section-p1 section-m1">
             <div class="newstext">
-                <h4>Sign Up For NewsLetters</h4>
-                <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+                <h4 data-i18n="newsletterHeading">Sign Up For NewsLetters</h4>
+                <p><span data-i18n="newsletterBody">Get E-mail updates about our latest shop and</span> <span data-i18n="specialOffers">special offers.</span></p>
             </div>
 
             <div class="form">
-                <input type="text" placeholder="Your email address">
+                <input type="text" data-i18n-placeholder="emailPlaceholder" placeholder="Your email address">
 
                 <a target="_blank" href="https://newsletter-anuragino.onrender.com">
-                    <button class="normal">Sign Up</button> 
+                    <button class="normal" data-i18n="signUp">Sign Up</button> 
                 </a>
                 <!-- <button class="normal">Sign Up</button> -->
             </div>
@@ -305,13 +314,13 @@
         <footer class="section-p1 ">
             <div class="col">
                 <img src="./img/logo.png" alt="logo" class="logo">
-                <h4>Contact</h4>
-                <p><strong>Address:</strong>B2/238 Cyber Police Station Road, Rohini Sector 17, New Delhi</p>
-                <p><strong>Phone:</strong>+01 2222 3665 / (+91) 01 2345 6763</p>
-                <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+                <h4 data-i18n="contactHeading">Contact</h4>
+                <p><strong data-i18n="addressLabel">Address:</strong>B2/238 Cyber Police Station Road, Rohini Sector 17, New Delhi</p>
+                <p><strong data-i18n="phoneLabel">Phone:</strong>+01 2222 3665 / (+91) 01 2345 6763</p>
+                <p><strong data-i18n="hoursLabel">Hours:</strong>10:00 - 18:00, Mon - Sat</p>
 
                 <div class="follow">
-                    <h4>Follow us</h4>
+                    <h4 data-i18n="followUs">Follow us</h4>
                     <div class="icon">
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-instagram"></i>
@@ -323,34 +332,34 @@
 
 
             <div class="col">
-                <h4>About</h4>
-                <a href="./subpages/about.html">About Us</a>
-                <a href="./subpages/blog.html">Delivery Information</a>
-                <a href="./subpages/blog.html">Privacy Poilcy</a>
-                <a href="./subpages/blog.html">Terms & Condition</a>
-                <a href="./subpages/contact.html">Contact Us</a>
+                <h4 data-i18n="aboutHeading">About</h4>
+                <a href="./subpages/about.html" data-i18n="aboutUs">About Us</a>
+                <a href="./subpages/blog.html" data-i18n="deliveryInfo">Delivery Information</a>
+                <a href="./subpages/blog.html" data-i18n="privacyPolicy">Privacy Policy</a>
+                <a href="./subpages/blog.html" data-i18n="termsCondition">Terms & Condition</a>
+                <a href="./subpages/contact.html" data-i18n="contactUs">Contact Us</a>
             </div>
             <div class="col">
-                <h4>My Account </h4>
-                <a href="#newsLetter">Sign In</a>
-                <a href="./subpages/cart.html">View Cart</a>
-                <a href="./subpages/shop.html">My WishList</a>
-                <a href="./subpages/sproduct.html">Track My Order</a>
-                <a href="./subpages/contact.html">Help</a>
+                <h4 data-i18n="myAccount">My Account </h4>
+                <a href="#newsLetter" data-i18n="signIn">Sign In</a>
+                <a href="./subpages/cart.html" data-i18n="viewCart">View Cart</a>
+                <a href="./subpages/shop.html" data-i18n="wishlist">My WishList</a>
+                <a href="./subpages/sproduct.html" data-i18n="trackOrder">Track My Order</a>
+                <a href="./subpages/contact.html" data-i18n="help">Help</a>
             </div>
 
             <div class="col install">
-                <h4>Install App</h4>
-                <p>From App Store or Google Play</p>
+                <h4 data-i18n="installApp">Install App</h4>
+                <p data-i18n="appStore">From App Store or Google Play</p>
                 <div class="row">
                     <img src="./img/pay/app.jpg" alt="app">
                     <img src="./img/pay/play.jpg" alt="play">
                 </div>
-                <p>Secured Payment Gateways</p>
+                <p data-i18n="securedPayment">Secured Payment Gateways</p>
                 <img src="./img/pay/pay.png" alt="pay">
             </div>
             <div class="copyright">
-                <p>©2023 Anurag Kumar. All Rights Reseverd.</p>
+                <p data-i18n="copyright">©2023 Anurag Kumar. All Rights Reseverd.</p>
             </div>
         </footer>
 
